@@ -11,7 +11,7 @@ function setSquare(thisSquare) {
 	var currSquare = "square"+thisSquare;
 	var newNum;
 	
-	var colPlace =new Array(0,1,2,3,4,0,1,2,3,4,0,1,3,4,0,1,2,3,4,0,1,2,3,4);
+	var colPlace =new Array(fart);
 	
 	do {
 		newNum =(colPlace[thisSquare] * 15) + getNewNum() + 1;
